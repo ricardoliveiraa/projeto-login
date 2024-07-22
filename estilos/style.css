@@ -65,3 +65,56 @@ div#form {
 div#form > p {
     font-size: 0.8em;
 }
+
+form > div.campo {
+    background-color: var(--cor4);
+    width: 100%;
+    display: block;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: var(--cor2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--cor4);
+}
+
+form > a.butao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid var(--cor4);
+    border-radius: 7px;
+    text-decoration: none;
+    color: #002510;
+}
+
+form > a.butao:hover {
+    background-color: var(--cor1);
+}
+
+form > a.butao > span {
+    font-size: 0.9em;
+}
+
